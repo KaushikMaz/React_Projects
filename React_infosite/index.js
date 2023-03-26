@@ -1,4 +1,4 @@
-import React from "react"
+import React, {createRoot} from "react"
 import ReactDOM from "react-dom/client"
 
 const Header=()=>{
@@ -15,4 +15,5 @@ const Header=()=>{
         </>
         
 )}
-ReactDOM.render(<Header/>, document.getElementById("root"))
+const root=ReactDOM.createRoot(document.getElementById("root"))
+root.render(<Header/>)
