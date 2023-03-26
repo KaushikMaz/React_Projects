@@ -1,11 +1,12 @@
 import React, {createRoot} from "react"
 import ReactDOM from "react-dom/client"
+import logo from "/images/react-logo.png"
 
 const Header=()=>{
      return(
         <>
             <nav className="nav">
-                <img src="/images/react-logo.svg"  alt="React Logo"/>
+                <img src={logo} style={{width:40}}  alt="React Logo"/>
                 <ul>
                     <li>Pricing</li>
                     <li>About</li>
