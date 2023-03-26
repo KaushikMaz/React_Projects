@@ -1,11 +1,11 @@
-import React from "react"
+import React, {createRoot} from "react"
 import ReactDOM from "react-dom/client"
 
 const Header=()=>{
     return(
         <>
             <nav className="nav">
-                <img src="#"/>
+                <img src=""/>
                 <ul>
                     <li>Pricing</li>
                     <li>About</li>
@@ -15,4 +15,5 @@ const Header=()=>{
         </>
         
 )}
-ReactDOM.render(<Header/>, document.getElementById("root"))
+const root=ReactDOM.createRoot(document.getElementById("root"))
+root.render(<Header/>)
