@@ -5,7 +5,10 @@ const Header=()=>{
     return(
         <>
             <nav className="nav">
-                <img src=""/>
+
+               
+               <img src="/images/react-logo.png"/>
+
                 <ul>
                     <li>Pricing</li>
                     <li>About</li>
