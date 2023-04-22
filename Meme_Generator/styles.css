@@ -6,3 +6,26 @@ body{
     margin:0;
     font-family: "Karla", sans-serif;
 }
+header{
+    display:flex;
+    align-items: center;
+    height:60px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+.Header-image{
+    height:100%;
+    margin-right:6px;
+    }
+
+.Header-title{
+    font-size: 1.75rem;
+    margin-right: auto;
+}
+
+.Header-text{
+    font-weight: bold;
+    font-size: 0.75rem;
+
+}
