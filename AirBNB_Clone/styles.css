@@ -8,12 +8,32 @@ body{
 }
 
 nav{
+    position:fixed;
     display:flex;
     height:70px;
+    width:100%;
     padding: 20px 35px;
     box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+    background-color:antiquewhite;
 }
 .nav-logo{
     max-width:100px;
 
+}
+.Hero{
+    display:flex;
+    flex-direction: column;
+
+}
+.Hero-photo{
+    /* width:500px; */
+    /* align-items: center; */
+    margin-top: 10px;
+}
+
+.Hero-header{
+    margin-bottom: 15px;
+}
+.Hero-text{
+    margin-top: 0;
 }
