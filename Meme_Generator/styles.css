@@ -29,3 +29,27 @@ header{
     font-size: 0.75rem;
 
 }
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 15px;
+    margin: 15px;
+}
+
+.form-input {
+    font-family:inherit;
+    border-radius: 5px;
+    border: 1px solid #313033;
+    text-indent: 5px;
+}
+
+.form-button {
+    grid-column: 1 / -1;
+    font-family: inherit;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
