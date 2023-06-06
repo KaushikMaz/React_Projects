@@ -5,7 +5,7 @@ const Navbar=()=>{
         <nav>
             <img src={logo} alt= "React Logo" className="logo"/>
             <h3 className="logoText">React Facts</h3>
-            <h4 className="navTitle">Information Site</h4>
+            <h4 className="navTitle"> React Basic Project</h4>
         </nav>
     )
 
