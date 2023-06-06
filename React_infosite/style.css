@@ -4,3 +4,32 @@
 body{
     font-family: Inter,sans-serif;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.logoText, .navTitle {
+    margin: 0;
+}
+
+.logoText {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navTitle {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.logo{
+    height: 30px;
+    margin-right: 7px;
+}
