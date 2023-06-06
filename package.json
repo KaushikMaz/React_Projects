@@ -4,6 +4,8 @@
   "description": "Basic React Projects to practise React skills and knowledge",
   
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kaushik Mazumdar",
