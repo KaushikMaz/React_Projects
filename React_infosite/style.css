@@ -4,9 +4,14 @@
 body{
     margin:0;
     font-family: Inter,sans-serif;
-    height: 100vh;
     background-color: #282D35;
 
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
 }
 
 nav {
@@ -42,7 +47,8 @@ main{
     color:white;
     background-image: url("../images/react-icon-large.png");
     background-repeat: no-repeat;
-    background-position: right 75%;
+    background-position: right center;
+    flex:1 1 auto;
 }
 .main-title{
     margin:0;
